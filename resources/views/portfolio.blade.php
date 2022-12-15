@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('style')
+@section('style')php
     <link rel="stylesheet" href="/css/stylePortfolio.css">
 @stop
 
