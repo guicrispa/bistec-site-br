@@ -378,7 +378,7 @@
 }
 
 }
-
+/* 
 @media (prefers-color-scheme: dark) and (min-width:621px) and (max-width: 950px){
     .button_store .button_text {
         color: #FFEF8F;
@@ -409,7 +409,7 @@
     .button_support .button_text {
         color: #FFEF8F;
     }
-}
+} */
 
 @media (prefers-color-scheme: dark) and (max-width: 620px) {
 

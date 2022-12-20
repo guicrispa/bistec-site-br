@@ -32,7 +32,7 @@
     <header class="header-bistec" id="#first_section">
         <a href="#first_section" class="logo-bistec">
             <img src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="90" height="84">
-            <img src="https://ik.imagekit.io/bistecbr/logo_bistec_branco.png" alt="Logo Branca - Bistec" width="300" height="102">
+            <img src="https://ik.imagekit.io/bistecbr/bistec_logobranco.png" alt="Logo Branca - Bistec" width="300" height="102">
         </a>
         <ul class="normal-menu">
             <li>
