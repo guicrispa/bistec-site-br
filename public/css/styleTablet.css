@@ -26,7 +26,7 @@
         width: 100%;
         right: 0;
         font-size: 12px;
-        border-bottom: 1px solid #f3fafa;
+        /* border-bottom: 1px solid #f3fafa; */
     }
     .normal:hover{
         border: none;
@@ -81,7 +81,7 @@
 
     .normal-submenu{
         /* width: 100%; */
-        display: block;
+        display: none;
         border: none;
         width: 100%;
         top: 30px;
@@ -114,7 +114,6 @@
 
     .button_support {
         width: 100%;
-        margin-top: 340px;
         display: block;
         height: 45px;
         font-size: 16px;
