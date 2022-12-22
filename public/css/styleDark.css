@@ -1,7 +1,8 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-        border-bottom: 1px solid #FFEF8F;
+        /* border-bottom: 1px solid #FFEF8F; */
+        border: none;
     }
     
     header .logo-bistec img:nth-child(1){
@@ -13,12 +14,13 @@
     }
 
     .header-bistec {
-        background-color: #141414;
+        background: none;
     }
 
     .button, 
     .button_support {
-        background: #a0c8f9;
+        background: #fff;
+
     }
 
     .button:hover,
@@ -32,13 +34,13 @@
     }
     
     .support_icon {
-        background: #a0c8f9;
+        background: #fff;
         color: #141414;
     }
 
     .button_icon {
         border-right: 1px solid #141414;
-        background-color: #a0c8f9;
+        background-color: #fff;
     }
 
     
@@ -48,7 +50,7 @@
 
     .normal, 
     .normal ion-icon {
-        color: #a0c8f9;
+        color: #fff;
     }
     .normal::after{
         content: '';
