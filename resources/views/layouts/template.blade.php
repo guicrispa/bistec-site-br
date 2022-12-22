@@ -8,11 +8,11 @@
     <meta property="og:site_name" content="Bistec BR" />
     <meta property="og:description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio." />
 
-    <meta property="og:image" content="https://bistec.com.pt/assets/images/tagline-vertical.png" />
-    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image" content="https://ik.imagekit.io/bistecbr/bistec_metatag.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Logo Bistec" />
-    <meta property="og:image:width" content="250" />
-    <meta property="og:image:height" content="250" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="400" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
