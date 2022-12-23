@@ -20,24 +20,25 @@
         <div class="produto-texto">
             <h1>Bistec GED</h1>
             <p>
-                Constantemente, a implementação de um software de gestão acaba por falhar, porque não é dada a atenção necessária ao profissional que utilizará a ferramenta no dia-a-dia. Para evitar este tipo de situação, o Bistec Edu fornece formação para toda a sua equipa explorar 100% da capacidade das soluções adquiridas.
+                Armazene seus documentos físicos ou digitais com segurança.
             </p>
 
             <p>
-                Muitas vezes a implantação de um software de gestão fracassa porque não é dada a atenção necessária ao profissional que irá, de facto, fazer uso da ferramenta no dia a dia: o utilizador.
+                Gaurda de Documentos (Disponibilizamos nossas caixas para que o cliente guarde seus documentos em sigilo absoluto, as quais são recolhidas já lacradas para a guarda ou de forma gerenciada, modalidade em que o cliente pode escolher com ou sem digitalização).
             </p>
 
             <p>
-                Por isso, um dos aspetos mais importantes é a questão  da formação. Quando o utilizador não recebe formação adequada não faz um bom uso da ferramenta e sente-se frustrado. Como resultado, ele pode passar a evitar o uso do software, voltando a executar tarefas da maneira como fazia antes da implementação.
+                Cadastramento (Os documentos são cadastrados em sistema ficando a disposição do cliente sempre que precisarem. Quando necessário, é possível solicitar a via física ou a digitalizada).
             </p>
 
             <p>
-                O ideal é que o utilizador receba formação constante (ou por um período maior), de forma personalizada, que lhe permita aprender a utilizar todos os recursos do software de gestão da melhor maneira possível. Este comprometimento com o utilizador gera resultados extremamente benéficos para a empresa, principalmente quanto à valorização do investimento realizado.
+                fragmentação (Os serviços de fragmentação protegem a privacidade de suas informações destruindo registros e documentos em papel, plásticos e mídia de maneira econômica e segura.	
             </p>
 
             <p>
-                Temos profissionais com mais de 25 anos de experiência académica. Formadores com CCP (Certificado de Competências Pedagógicas), e-Formadores e educadores certificados Google nível 1.
+                Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945">Converse com um de nossos atendentes sobre a solução BISTEC Edu</a>
             </p>
+
         </div>
     </article>
 @stop
