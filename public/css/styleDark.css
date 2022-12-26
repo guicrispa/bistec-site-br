@@ -20,8 +20,7 @@
 
     .button, 
     .button_support {
-        background: #fff;
-
+        background: #a0c8f9; 
     }
 
     .button:hover,
@@ -40,8 +39,8 @@
     }
 
     .button_icon {
-        border-right: 1px solid #141414;
-        background-color: #fff;
+        border-right: 1px solid #141414; 
+        background-color: #a0c8f9; 
     }
 
     .button:focus-within {
@@ -84,7 +83,7 @@
 
     .button_text,
     .button_icon {
-        color: #141414;
+        color: #141414; 
     }
 
     .menu-cell {
@@ -269,8 +268,19 @@
         background-color: #ffa79f;
     }
 
+    
+    .bt-dialog-anydesk:focus-within {
+        border: 1px solid #fff;
+        background-color: #ffa79f;
+    }
+
     .bt-dialog-teamviewer:hover {
-        background-color: #b3dbff;
+        background-color: #c2e2ff;
+    }
+
+    .bt-dialog-teamviewer:focus-within {
+        border: 1px solid #fff;
+        background-color: #c2e2ff;
     }
 
     .suporte-wpp {
@@ -355,6 +365,13 @@
         color: rgb(255, 81, 81);
         opacity: 0.8;
     }
+
+/* página de tour */
+
+.bistec_tour_page {
+    color: #fff;
+}
+
 /*páginas de erro 404*/
 
 .bistec-error404, .bistec-error404 strong a {
@@ -362,7 +379,7 @@
 }
 
 }
-
+/* 
 @media (prefers-color-scheme: dark) and (min-width:621px) and (max-width: 950px){
     .button_store .button_text {
         color: #FFEF8F;
@@ -393,9 +410,9 @@
     .button_support .button_text {
         color: #FFEF8F;
     }
-}
+} */
 
-@media (prefers-color-scheme: dark) and (max-width: 620px) {
+@media (prefers-color-scheme: dark) and (max-width: 768px) {
 
     .menu-cell {
         display: block;

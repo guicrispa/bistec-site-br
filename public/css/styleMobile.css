@@ -25,8 +25,9 @@
     }
     
     .logo-bistec img {
-        width: 32vw;
+        width: 39vw;
         margin-left: 5px;
+        margin-top: 0.5vh;
     }
 
     .normal:hover{
@@ -55,9 +56,10 @@
      */
 
     .logo-bistec img {
-        margin: 0; 
+        /* margin: 0; */
         width: 32vw;
         margin-left: 15px;
+        margin-top: 0.5vh;
     }
     
 
@@ -209,10 +211,10 @@
 
     .bistec-produtos a img {
         margin: auto;
+        width: 75vw;
     }
 
     .bistec-produtos img {
-      width: 75%;
       margin: 0;
       padding-top: 5vh;
       padding-bottom: 5vh;
