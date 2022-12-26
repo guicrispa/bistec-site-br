@@ -4,6 +4,11 @@
         /* border-bottom: 1px solid #FFEF8F; */
         border: none;
     }
+
+    .sticky {
+        background: #f3fafa;
+        transition: 0.5s;
+    }
     
     header .logo-bistec img:nth-child(1){
         display: none;
@@ -11,10 +16,6 @@
 
     header .logo-bistec img:nth-child(2){
         display: inherit;
-    }
-
-    .header-bistec {
-        background: none;
     }
 
     .button, 
@@ -43,7 +44,6 @@
         background-color: #fff;
     }
 
-    
     .button:focus-within {
         border: 2px solid rgb(218, 218, 218);
     }

@@ -31,7 +31,7 @@
 <body>
     <header class="header-bistec" id="#first_section">
         <a href="#first_section" class="logo-bistec">
-            <img src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="90" height="84">
+            <img class="logoImg" src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="90" height="84">
             <img src="https://ik.imagekit.io/bistecbr/logo_bistec_branco.png" alt="Logo Branca - Bistec" width="300" height="102">
         </a>
         <ul class="normal-menu">
@@ -146,5 +146,16 @@
     <script src="/js/main.js" defer async></script>
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
     <script src="//code.jivosite.com/widget/3bZuUHkWaM" async></script>
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+            // if(window.scrollY > 0){
+            //     let imageLogo = document.querySelector('.logoImg')
+            //     imageLogo.removeAttribute('src');
+            //     imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+            // }
+        })
+    </script>
 </body>
 </html>
