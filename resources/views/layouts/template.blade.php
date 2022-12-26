@@ -6,7 +6,7 @@
     <meta property="og:url" content="https://bistec.com.br/" />
     <meta property="og:title" content="Bistec BR - Automação Comercial" />
     <meta property="og:site_name" content="Bistec BR" />
-    <meta property="og:description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio." />
+    <meta property="og:description" content="Bistec Consultoria de TI. Desde 1999 fornecendo portfolio e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio." />
 
     <meta property="og:image" content="https://bistec.com.pt/assets/images/tagline-vertical.png" />
     <meta property="og:image:type" content="image/png" />
@@ -17,7 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio.">
+    <meta name="description" content="Bistec Consultoria de TI. Desde 1999 fornecendo portfolio e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio.">
     <title>Início - Bistec Brasil</title>
     @yield('style')
     <link rel="stylesheet" href="/css/style.css">
@@ -44,21 +44,21 @@
             <li>
                 <a href="/portfolio" class="normal click_portfolio_mobile">PORTFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
                 <ul class="normal-submenu">
-                    <li><a href="/produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
-                    <li><a href="/produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
-                    <li><a href="/produtos/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
-                    <li><a href="/produtos/ged"><ion-icon name="file-tray-stacked-sharp"></ion-icon> BISTEC GED</a></li>
-                    <li><a href="/produtos/green"><ion-icon name="leaf-sharp"></ion-icon> BISTEC GREEN</a></li>
-                    <li><a href="/produtos/lgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC LGPD</a></li>
-                    <li><a href="/produtos/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
-                    <li><a href="/produtos/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
-                    <li><a href="/produtos/pay"> <ion-icon name="card"></ion-icon> BISTEC PAY</a></li>
-                    <li><a href="/produtos/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
-                    <li><a href="/produtos/sign"> <ion-icon name="log-in"></ion-icon> BISTEC SIGN</a></li>
-                    <li><a href="/produtos/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
-                    <li><a href="/produtos/voip"> <ion-icon name="call"></ion-icon> BISTEC VOIP</a></li>
-                    <li><a href="/produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon>BISTEC WIFI</a></li>
-                    <li><a href="/produtos/xml"> <ion-icon name="document"></ion-icon> BISTEC XML</a></li>
+                    <li><a href="/portfolio/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
+                    <li><a href="/portfolio/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
+                    <li><a href="/portfolio/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
+                    <li><a href="/portfolio/ged"><ion-icon name="file-tray-stacked-sharp"></ion-icon> BISTEC GED</a></li>
+                    <li><a href="/portfolio/green"><ion-icon name="leaf-sharp"></ion-icon> BISTEC GREEN</a></li>
+                    <li><a href="/portfolio/lgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC LGPD</a></li>
+                    <li><a href="/portfolio/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
+                    <li><a href="/portfolio/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
+                    <li><a href="/portfolio/pay"> <ion-icon name="card"></ion-icon> BISTEC PAY</a></li>
+                    <li><a href="/portfolio/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
+                    <li><a href="/portfolio/sign"> <ion-icon name="log-in"></ion-icon> BISTEC SIGN</a></li>
+                    <li><a href="/portfolio/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
+                    <li><a href="/portfolio/voip"> <ion-icon name="call"></ion-icon> BISTEC VOIP</a></li>
+                    <li><a href="/portfolio/wifi"> <ion-icon name="wifi-sharp"></ion-icon>BISTEC WIFI</a></li>
+                    <li><a href="/portfolio/xml"> <ion-icon name="document"></ion-icon> BISTEC XML</a></li>
                 </ul>
             </li>
 
