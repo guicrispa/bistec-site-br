@@ -59,15 +59,16 @@
 @stop
 @section('scriptheader')
     <script>
-        function teste() {
+        function headerDone() {
             var header = document.querySelector("header");
             header.classList.toggle("sticky");
             let imageLogo = document.querySelector('.logoImg')
             imageLogo.removeAttribute('src');
             imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
         }
-        teste();
+        headerDone();
     </script>
+@stop
 
 @section('script')
     <script src="/js/menu.js" defer async></script>

@@ -64,6 +64,7 @@
             } 
         })
     </script>
+@stop
 
 @section('script')
     <script src="/js/menu.js" defer async></script>
