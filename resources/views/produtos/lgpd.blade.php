@@ -32,3 +32,16 @@
         </div>
     </article>
 @stop
+@section('scriptheader')
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY >= 0)
+            if(window.scrollY >= 0){
+                let imageLogo = document.querySelector('.logoImg')
+                imageLogo.removeAttribute('src');
+                imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+            } 
+        })
+    </script>
+@stop
