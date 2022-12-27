@@ -138,6 +138,7 @@
                     imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
                 } 
             }
+            
         })
     </script>
 @stop 
