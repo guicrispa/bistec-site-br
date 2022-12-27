@@ -32,6 +32,11 @@ header {
     aspect-ratio: attr(width) / attr(height);
 }
 /* trocando imagens logo - dark mode*/
+
+header .logo-bistec img:nth-child(1){
+    display: inherit;
+}
+
 header .logo-bistec img:nth-child(2){
     display: none;
 }
@@ -50,6 +55,7 @@ header .normal-menu {
 }
 .normal-menu li{
     position: relative;
+    text-align: left;
 }
 
 header .normal-menu li a {
@@ -64,8 +70,23 @@ header .normal-menu li a {
     background: #F3FAFA;
     text-decoration: none;
     font-size: 11px;
+    transition: 0.8s;
     font-weight: 700;
     box-shadow: 0.2px 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.473);
+}
+
+.normal {
+	display: inline-flex;
+    height: 30px;
+    margin: 0 10px;
+	color: #141414;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+	font-weight: 700;
+    line-height: 2;
+    position: relative;
+    transition: 0.5s;
 }
 
 .normal, 
@@ -78,29 +99,10 @@ header .normal-menu li a {
     background-color: #a0c8f9;
 }
 
-.sticky {
-    background: #f3fafa;
-    transition: 0.5s;
-    border-bottom: 1px solid #b3b3b3;
-}
-
-.sticky .normal-submenu li a {
-    color: #141414;
-    background: #F3FAFA;
-    transition: 0.5s;
-}
-
-.sticky .normal-submenu li a:hover,
-.sticky .normal-submenu li a:focus-within {
-    background: #0c407c;
-    color: white;
-    transition: 0.2s;
-}
-.sticky .normal-submenu ion-icon {
+.normal-submenu ion-icon {
     font-size: 15px;
     color: #141414;
     margin-right: 5px;
-    transition: 0.5s;
 }
 
 header ul ul {
@@ -132,23 +134,20 @@ header ul :hover > ul{
 	font-size: 15px;
 	font-weight: 800;
 	cursor: pointer;
-}
-
-.button_support {
-    background: #fff;
+    background: #f3fafa;
     color: #000;
 }
 
-.button_support:hover {
-    background: #fff;
+.button_text:hover {
+    background: #e7f0f0;
 }
 
-.button_support:active{
-    background: #fff ;
+.button_text:active{
+    background: #dce9e9 ;
 }
 
 .support_icon {
-    background: #fff;
+    background: #f3fafa;
 }
 
 .button_text,
@@ -156,9 +155,9 @@ header ul :hover > ul{
 	display: inline-flex;
 	align-items: center;
 	padding: 0 10px;
-	color: #FFEF8F;
-    height: 100%;
-    color: #141414;
+	height: 100%;
+	color: #141414;
+	background: #f3fafa;
 }
 
 .button_icon{
@@ -182,90 +181,34 @@ header ul :hover > ul{
         background-color: #fff;
 }
 
-.sticky .button {
-	background: #0F5A20;
-}
+.normal::after{
+    content: '';
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    width: 0%;
+    height: 3.5px;
+    background-color: #A0C8F9;
+    transition: 0.2s;
+} 
+.normal:hover::after{
+    left: 0;
+    width: 100%;
+} 
 
-.sticky .button:hover {
-	background: #115d23;
-}
-
-.sticky .button:active{
-	background: #146426;
-}
-
-.sticky .button_text,
-.sticky .button_icon {
-	display: inline-flex;
-	align-items: center;
-	padding: 0 10px;
-	color: #FFEF8F;
-    height: 100%;
-    border: none;
+.normal-submenu li a:hover,
+.normal-submenu li a:focus-within {
+    background: #0c407c;
+    color: white;
+    transition: 0.2s;
 }
 
 a {
     text-decoration: none;
 }
 
-.sticky .normal {
-	display: inline-flex;
-    height: 30px;
-    margin: 0 10px;
-	color: #141414;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-	font-weight: 700;
-    line-height: 2;
-    position: relative;
-    transition: 0.5s;
-    
-}
-
-.sticky .normal ion-icon {
-    color: black;
-}
-
 :focus-within > .normal-submenu {
     display: block;
-}
-
-.sticky .normal::after{
-    content: '';
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-    width: 0%;
-    height: 4.5px;
-    background-color: #141414;
-    transition: 0.2s;
-} 
-
-.sticky .normal:hover::after{
-    left: 0;
-    width: 100%;
-} 
-
-
-.sticky .button_icon {
-	background: #0B4417;
-}
-
-.sticky .button_support {
-    background: #082e5e;
-}
-
-.sticky .button_support:hover {
-    background: #0b3e78;
-}
-
-.sticky .button_support:active{
-    background: #0e4583 ;
-}
-
-.sticky .support_icon {
-    background: #001E42;
 }
 
 .menu-cell {

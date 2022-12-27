@@ -116,14 +116,32 @@
     <script>
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY >= 0)
-            if(window.scrollY >= 0){
-                let imageLogo = document.querySelector('.logoImg')
-                imageLogo.removeAttribute('src');
-                imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
-            } 
+            if(window.matchMedia("(min-width: 621px").matches){
+                header.classList.toggle("sticky", window.scrollY >= 0)
+                if(window.scrollY >= 0){
+                    let imageLogo = document.querySelector('.logoImg')
+                    imageLogo.removeAttribute('src');
+                    imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+                } 
+
+                let theme = window.localStorage.getItem("theme");
+                if (window.scrollY >= 0 && theme === "dark") {
+                    let imageLogo = document.querySelector('.logoImg')
+                    imageLogo.removeAttribute('src');
+                    imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo_bistec_branco.png`);
+                }
+            }
+            if (window.matchMedia("(min-width: 621px").matches) {
+                if(window.scrollY >= 0){
+                    let imageLogo = document.querySelector('.logoImg')
+                    imageLogo.removeAttribute('src');
+                    imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+                } 
+            }
         })
     </script>
+@stop 
+
 @section('script')
     <script src="/js/main.js" defer async></script>
 @stop

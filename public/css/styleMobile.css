@@ -1,9 +1,20 @@
 
 @media (max-width: 620px) {
+
+    header .logo-bistec img:nth-child(1){
+        display: inherit;
+    }
+
+    header .logo-bistec img:nth-child(2){
+        display: none;
+    }
+    
     .header-bistec {
         width: 100%;
         display: block;
         padding: 10px 0;
+        background: #f3fafa;
+        border-bottom: 1px solid #b3b3b3;
     }
 
     header .normal-menu li a{
@@ -11,6 +22,7 @@
         margin: 0;
         letter-spacing: 0.5px;
         text-align: left;
+        color: #141414;
     }
 
     .normal-menu{
@@ -50,6 +62,16 @@
         font-size: 15px;
         color: #141414;
         margin-right: 5px;
+    }
+
+    .button_text {
+        background: none;
+        color: #FFEF8F;
+    }
+
+    .button_icon {
+        border: none;
+        color: #FFEF8F;
     }
 
     /* 

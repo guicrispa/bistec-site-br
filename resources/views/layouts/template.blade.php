@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/css/styleTelaQuadrada.css">
     <link rel="stylesheet" href="/css/styleTv.css">
     <link rel="stylesheet" href="/css/styleDark.css">
+    <link rel="stylesheet" href="/css/sticky.css">
     <link rel="icon" href="https://ik.imagekit.io/bistecbr/simbolo.png">
 </head>
 <body>
