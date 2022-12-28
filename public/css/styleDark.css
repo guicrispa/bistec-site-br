@@ -414,6 +414,11 @@
         display: inherit;
     }
 
+    header .logo-bistec img:nth-child(3){
+        display: none;
+    }
+
+
     .header-bistec {
         background-color: #141414;
     }

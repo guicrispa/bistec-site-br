@@ -2,11 +2,15 @@
 @media (max-width: 620px) {
 
     header .logo-bistec img:nth-child(1){
-        display: inherit;
+        display: none;
     }
 
     header .logo-bistec img:nth-child(2){
         display: none;
+    }
+
+    header .logo-bistec img:nth-child(3){
+        display: inherit;
     }
     
     .header-bistec {

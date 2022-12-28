@@ -129,6 +129,7 @@
         background: #141414;
         color: #f3fafa;
         transition: 0.5s;
+        border-bottom: 1px solid #FFEF8F;
     }
 
     header .logo-bistec img:nth-child(1){
@@ -139,8 +140,8 @@
     }
 
     .sticky .normal-submenu li a {
-        color: #141414;
-        background: #F3FAFA;
+        color: #f3fafa;
+        background: #141414;
         transition: 0.8s;
     }
     
@@ -152,7 +153,7 @@
     }
     .sticky .normal-submenu ion-icon {
         font-size: 15px;
-        color: #141414;
+        color: #f3fafa;
         margin-right: 5px;
         transition: 0.5s;
     }
