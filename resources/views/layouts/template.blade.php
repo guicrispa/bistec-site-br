@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-BR">
 <head>
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
@@ -33,9 +33,9 @@
     <header class="header-bistec" id="#first_section">
         <a href="#first_section" class="skip-to-main-content-link">Subir para o conteúdo principal</a>
         <a href="/" class="logo-bistec">
-            <img class="logoImg" src="https://ik.imagekit.io/bistecbr/bistec_logobranco.png" alt="Logo Branca - Bistec" width="90" height="84">
+            <img class="logoImg" src="https://ik.imagekit.io/bistecbr/bistec_logobranco.png" alt="Logo Branca - Bistec" width="300" height="102">
             <img src="https://ik.imagekit.io/bistecbr/bistec_logobranco.png" alt="Logo Branca - Bistec" width="300" height="102">
-            <img src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="90" height="84">
+            <img src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="300" height="102">
         </a>
         <ul class="normal-menu">
             <li>
@@ -148,7 +148,21 @@
     </div>
     @yield('script')
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
-    <script src="//code.jivosite.com/widget/3bZuUHkWaM" async></script>
+    <script type="text/javascript">;
+      //<![CDATA[
+      var ttChatLoaderS = document.createElement('script');
+      document.tomticketChatLoaderScriptVersion = 2;
+      ttChatLoaderS.src = 'https://bistec.tomticket.com/scripts-chat/chat.min.js'
+      + '?id=EP60211'
+      + '&autoOpen=0'
+      + '&hideWhenOffline=0'
+      + '&d=bistec'
+      + '&ts=' + new Date().getTime()
+      + '&ref=' + encodeURIComponent(document.URL);
+      document.body.appendChild(ttChatLoaderS);
+      //]]>;
+    </script>
+
     @yield('scriptheader')
 </body>
 </html>
