@@ -105,63 +105,63 @@ Route::get('/tour', function () {
     return view('tour');
 });
 
-Route::get('/produtos/automacao', function () {
+Route::get('/portfolio/automacao', function () {
     return view('produtos/automacao');
 });
 
-Route::get('/produtos/cloud', function () {
+Route::get('/portfolio/cloud', function () {
     return view('produtos/cloud');
 });
 
-Route::get('/produtos/edu', function () {
+Route::get('/portfolio/edu', function () {
     return view('produtos/edu');
 });
 
-Route::get('/produtos/ged', function () {
+Route::get('/portfolio/ged', function () {
     return view('produtos/ged');
 });
 
-Route::get('/produtos/green', function () {
+Route::get('/portfolio/green', function () {
     return view('produtos/green');
 });
 
-Route::get('/produtos/lgpd', function () {
+Route::get('/portfolio/lgpd', function () {
     return view('produtos/lgpd');
 });
 
-Route::get('/produtos/msp', function () {
+Route::get('/portfolio/msp', function () {
     return view('produtos/msp');
 });
 
-Route::get('/produtos/outsourcing', function () {
+Route::get('/portfolio/outsourcing', function () {
     return view('produtos/outsourcing');
 });
 
-Route::get('/produtos/pay', function () {
+Route::get('/portfolio/pay', function () {
     return view('produtos/pay');
 });
 
-Route::get('/produtos/renting', function () {
+Route::get('/portfolio/renting', function () {
     return view('produtos/renting');
 });
 
-Route::get('/produtos/sign', function () {
+Route::get('/portfolio/sign', function () {
     return view('produtos/sign');
 });
 
-Route::get('/produtos/soft', function () {
+Route::get('/portfolio/soft', function () {
     return view('produtos/soft');
 });
 
-Route::get('/produtos/voip', function () {
+Route::get('/portfolio/voip', function () {
     return view('produtos/voip');
 });
 
 
-Route::get('/produtos/wifi', function () {
+Route::get('/portfolio/wifi', function () {
     return view('produtos/wifi');
 });
 
-Route::get('/produtos/xml', function () {
+Route::get('/portfolio/xml', function () {
     return view('produtos/xml');
 });

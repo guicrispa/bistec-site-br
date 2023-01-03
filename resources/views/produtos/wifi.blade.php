@@ -24,23 +24,23 @@
             </p>
             
             <p>
-                Acesso (Disponibilize a conexão por meio das redes sociais ou e-mail e senha e tenha o controle de quem está acessando sua internet)
+                Acesso (Disponibilize a conexão por meio das redes sociais ou e-mail e senha e tenha o controle de quem está acessando sua internet).
             </p>
 
             <p>
-                Segurança (disponibilize Wifi para o seu cliente isolado do Wifi de uso corporativo, garantindo segurança para seus arquivos)
+                Segurança (Disponibilize Wifi para o seu cliente isolado do Wifi de uso corporativo, garantindo segurança para seus arquivos).
             </p>
 
             <p>
-                Marketing (Fidelize seus clientes com mensagens de aniversário e promocionais por meio de SMS e WhatsApp)
+                Marketing (Fidelize seus clientes com mensagens de aniversário e promocionais por meio de SMS e WhatsApp).
             </p>
             
             <p>
-                * Atende ao Marco Civíl da Internet e a Lei Geral de Proteção de Dados - LGPD
+                * Atende ao Marco Civíl da Internet e a Lei Geral de Proteção de Dados - LGPD.
             </p>
 
             <p>
-                Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945">Converse com um de nossos atendentes sobre a solução BISTEC Wifi</a>
+                Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945&text=Ol%C3%A1,%20estou%20com%20uma%20d%C3%BAvida%20sobre%20a%20solu%C3%A7%C3%A3o%20Bistec%20Wifi">Converse com um de nossos atendentes sobre a solução BISTEC Wifi.</a>
             </p>
         </div>
     </article>
