@@ -41,7 +41,6 @@ function menuResponsive(){
         menu.style.display = 'inherit'
     }
 }
-<<<<<<< HEAD
 
 // abrir e fechar botão portfólio
 // document.getElementsByClassName('click_portfolio_mobile')[0].addEventListener('click', portfolioMobile)
@@ -60,5 +59,3 @@ function menuResponsive(){
 //         }
 //         // console.log('teste');
 // }
-=======
->>>>>>> pedrovitor2

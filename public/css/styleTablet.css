@@ -1,7 +1,6 @@
 
 /* tablet */
 @media (min-width: 621px) and (max-width:768px){
-<<<<<<< HEAD
     header .logo-bistec img:nth-child(1){
         display: none;
     }
@@ -10,8 +9,6 @@
         display: inherit;
     }
     
-=======
->>>>>>> pedrovitor2
     .header-bistec {
         width: 100%;
         display: block;

@@ -1,16 +1,8 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-<<<<<<< HEAD
         /* border-bottom: 1px solid #FFEF8F; */
         border: none;
-=======
-        border-bottom: 1px solid #FFEF8F;
-    }
-    
-    header .logo-bistec img:nth-child(1){
-        display: none;
->>>>>>> pedrovitor2
     }
 
     .sticky {
@@ -39,29 +31,17 @@
     }
 
     .button_icon {
-<<<<<<< HEAD
         border-right: 1px solid #141414; 
         background-color: #f3fafa; 
     }
 
-=======
-        border-right: 1px solid #141414;
-        background-color: #a0c8f9;
-    }
-
-    
->>>>>>> pedrovitor2
     .button:focus-within {
         border: 2px solid rgb(218, 218, 218);
     }
 
     .normal, 
     .normal ion-icon {
-<<<<<<< HEAD
         color: #fff;
-=======
-        color: #a0c8f9;
->>>>>>> pedrovitor2
     }
     .normal::after{
         content: '';
@@ -422,11 +402,7 @@
     .button_support .button_text {
         color: #FFEF8F;
     }
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> pedrovitor2
 
 @media (prefers-color-scheme: dark) and (max-width: 768px) {
 
@@ -503,10 +479,7 @@
 
     .button_support .button_text {
         color: #FFEF8F;
-<<<<<<< HEAD
         background: none;
-=======
->>>>>>> pedrovitor2
     }
 
     .texto-produtos .button_text {
