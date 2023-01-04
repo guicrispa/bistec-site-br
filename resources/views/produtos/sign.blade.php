@@ -19,7 +19,11 @@
     <div class="produto-texto">
         <h1>Bistec Sign</h1>
         <p>
+<<<<<<< HEAD
             A identidade eletrônica que garante a autenticidade da sua empresa.        [
+=======
+            A identidade eletrônica que garante a autenticidade da sua empresa.        
+>>>>>>> pedrovitor2
         </p>
 
         <p>
@@ -27,7 +31,7 @@
         </p>
 
         <p>
-            Certificado digital (A1, A3, SSL ou online sob demanda, com suporte técnico personalizado durante o processo de emissão)
+            Certificado digital (A1, A3, SSL ou online sob demanda, com suporte técnico personalizado durante o processo de emissão).
         </p>
 
         <p>
@@ -35,7 +39,7 @@
         </p>
 
         <p>
-            Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945">Converse com um de nossos atendentes sobre a solução BISTEC Sign</a>
+            Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945&text=Ol%C3%A1,%20estou%20com%20uma%20d%C3%BAvida%20sobre%20a%20solu%C3%A7%C3%A3o%20Bistec%20Sign">Converse com um de nossos atendentes sobre a solução BISTEC Sign.</a>
         </p>
     </div>
 </article>

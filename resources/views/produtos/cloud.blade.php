@@ -23,7 +23,7 @@
                 Guarde os seus arquivos com segurança. Nenhum sistema é 100% seguro, faça BACKUP.
             </p>
             <p>
-                Backup (cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
+                Backup (Cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
             </p>
             <p>
                 Segurança (Garante a disponibilidade, confidencialidade e integridade dos seus arquivos).
@@ -34,7 +34,7 @@
             </p>
 
             <p>
-                * Atende à lei geral de proteção de dados - LGPD
+                * Atende à lei geral de proteção de dados - LGPD.
             </p>
 
             <p>
