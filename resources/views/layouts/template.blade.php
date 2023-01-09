@@ -100,7 +100,7 @@
             <a href="https://www.flickr.com/bistec" title="Bistec Flickr" target="_blank"><ion-icon name="logo-flickr"></ion-icon></a>
             <a href="https://soundcloud.com/bistecweb" title="Bistec Soundcloud" target="_blank"><ion-icon name="logo-soundcloud"></ion-icon></a>
             <a href="https://linkedin.com/company/bistec" title="Bistec Linkedin" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="https://www.google.com/maps/place/BISTEC+PT+-+Servi%C3%A7os+de+tecnologia+para+todas+as+empresas/@40.6404794,-8.6534868,17z/data=!3m1!4b1!4m5!3m4!1s0xd2399dba4bcb0ad:0x74340dfb6ecc8e8d!8m2!3d40.6404794!4d-8.6534868?hl=pt" title="Bistec Linkedin" target="_blank"><ion-icon name="location" class="ionspecial"></ion-icon></a>
+            <a href="https://www.google.com/maps/place/BISTEC+BR+-+Servi%C3%A7os+de+tecnologia+para+todas+as+empresas./@-23.9368152,-46.321871,15z/data=!4m2!3m1!1s0x0:0x4961ff979c40b583?sa=X&hl=pt-BR&ved=2ahUKEwjPverh1rr8AhVWK7kGHWw9AoMQ_BJ6BAhjEAg" title="Bistec Localização" target="_blank"><ion-icon name="location" class="ionspecial"></ion-icon></a>
         </div>
 
         <div class="contacts">
@@ -148,20 +148,7 @@
     </div>
     @yield('script')
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
-    <script type="text/javascript">;
-      //<![CDATA[
-      var ttChatLoaderS = document.createElement('script');
-      document.tomticketChatLoaderScriptVersion = 2;
-      ttChatLoaderS.src = 'https://bistec.tomticket.com/scripts-chat/chat.min.js'
-      + '?id=EP60211'
-      + '&autoOpen=0'
-      + '&hideWhenOffline=0'
-      + '&d=bistec'
-      + '&ts=' + new Date().getTime()
-      + '&ref=' + encodeURIComponent(document.URL);
-      document.body.appendChild(ttChatLoaderS);
-      //]]>;
-    </script>
+    <script src="//code.jivosite.com/widget/3bZuUHkWaM" async=""></script>
 
     @yield('scriptheader')
 </body>
