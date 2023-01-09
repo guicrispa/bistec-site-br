@@ -1,4 +1,3 @@
-
 @extends('layouts.template')
 
 @section('style')
@@ -101,6 +100,21 @@
             </div>
         </div>
     </article>
+@stop
+@section('scriptheader')
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            if(window.matchMedia("(min-width: 621px").matches){
+                header.classList.toggle("sticky", window.scrollY >= 0)
+                if(window.scrollY >= 0){
+                    let imageLogo = document.querySelector('.logoImg')
+                    imageLogo.removeAttribute('src');
+                    imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+                }
+            }            
+        })
+    </script>
 @stop
 
 @section('script')

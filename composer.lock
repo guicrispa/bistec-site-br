@@ -967,6 +967,10 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> gui-email
             "version": "v8.83.26",
             "source": {
                 "type": "git",
@@ -977,6 +981,21 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/7411d9fa71c1b0fd73a33e225f14512b74e6c81e",
                 "reference": "7411d9fa71c1b0fd73a33e225f14512b74e6c81e",
+<<<<<<< HEAD
+=======
+=======
+            "version": "v8.83.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "b77b908a9426efa41d6286a2ef4c3adbf5398ca1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b77b908a9426efa41d6286a2ef4c3adbf5398ca1",
+                "reference": "b77b908a9426efa41d6286a2ef4c3adbf5398ca1",
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1155,15 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2022-11-01T14:48:50+00:00"
+=======
+<<<<<<< HEAD
+            "time": "2022-11-01T14:48:50+00:00"
+=======
+            "time": "2022-09-30T13:00:40+00:00"
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
         },
         {
             "name": "laravel/sanctum",
@@ -2476,6 +2503,10 @@
         },
         {
             "name": "psr/log",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> gui-email
             "version": "2.0.0",
             "source": {
                 "type": "git",
@@ -2486,6 +2517,21 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/ef29f6d262798707a9edd554e2b82517ef3a9376",
                 "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+<<<<<<< HEAD
+=======
+=======
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
                 "shasum": ""
             },
             "require": {
@@ -2494,7 +2540,15 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.0.x-dev"
+=======
+<<<<<<< HEAD
+                    "dev-master": "2.0.x-dev"
+=======
+                    "dev-master": "1.1.x-dev"
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
                 }
             },
             "autoload": {
@@ -2520,9 +2574,21 @@
                 "psr-3"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/php-fig/log/tree/2.0.0"
             },
             "time": "2021-07-14T16:41:46+00:00"
+=======
+<<<<<<< HEAD
+                "source": "https://github.com/php-fig/log/tree/2.0.0"
+            },
+            "time": "2021-07-14T16:41:46+00:00"
+=======
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
         },
         {
             "name": "psr/simple-cache",
@@ -2874,7 +2940,15 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/ramsey/uuid/tree/4.6.0"
+=======
+<<<<<<< HEAD
+                "source": "https://github.com/ramsey/uuid/tree/4.6.0"
+=======
+                "source": "https://github.com/ramsey/uuid/tree/4.2.3"
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
             },
             "funding": [
                 {
@@ -2886,7 +2960,15 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-11-05T23:03:38+00:00"
+=======
+<<<<<<< HEAD
+            "time": "2022-11-05T23:03:38+00:00"
+=======
+            "time": "2021-09-25T23:10:38+00:00"
+>>>>>>> origin/gui-laravel1
+>>>>>>> gui-email
         },
         {
             "name": "swiftmailer/swiftmailer",

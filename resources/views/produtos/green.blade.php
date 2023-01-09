@@ -19,21 +19,37 @@
     <div class="produto-texto">
         <h1>Bistec Green</h1>
         <p>
-            Quando se trata de atendimento técnico para a sua empresa atualmente existem dois modelos, o break-fix (quebrou-consertou) e o MSP (Provedores de Serviços Gerenciados).
+            Adote as melhores práticas de sustentabilidade na infraestrutura de TI da sua empresa.
         </p>
         <p>
-            No modelo break-fix o suporte técnico é acionado após o problema acontecer e até que ele seja resolvido você fica com seu equipamento/sistema inoperante.
-        </p>
-
-        <p>
-            Já no modelo MSP, a Bistec atua ativamente, utilizando ferramentas gerenciais, para analisar em tempo real o que está a acontecer com o seu computador e sistemas. Dessa forma é possível resolver os seus problemas antes mesmo de eles acontecerem.
+            T.I. Verde (Tolond (2012) define TI Verde como uma aplicação eficiente (tamanho e capacidade) de tecnologias inteligentes (que gerenciam o consumo de energia) e tecnologias ecologicamente corretas (eco-friendly) em toda a organização).
         </p>
 
         <p>
-            Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945&text=Ol%C3%A1,%20estou%20com%20uma%20d%C3%BAvida%20sobre%20a%20solu%C3%A7%C3%A3o%20Bistec%20MSP">Converse com um de nossos atendentes sobre a solução BISTEC MSP</a>
+            Práticas (Metodologias sustentáveis aplicadas ao setor de tecnologia da sua empresa).
+        </p>
+
+        <p>
+            Equipamentos (minimize os impactos negativos trazidos com a operação da infraestrutura de TIC).
+        </p>
+
+        <p>
+            Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945&text=Ol%C3%A1,%20estou%20com%20uma%20d%C3%BAvida%20sobre%20a%20solu%C3%A7%C3%A3o%20Bistec%20Green">Converse com um de nossos atendentes sobre a solução BISTEC Green</a>
         </p>
     </div>
 </article>
+@stop
+@section('scriptheader')
+    <script>
+        function headerDone() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky");
+            let imageLogo = document.querySelector('.logoImg')
+            imageLogo.removeAttribute('src');
+            imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+        }
+        headerDone();
+    </script>
 @stop
 
 @section('script')

@@ -15,3 +15,15 @@
         </section>
     </article>
 @stop
+@section('scriptheader')
+    <script>
+        function headerDone() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky");
+            let imageLogo = document.querySelector('.logoImg')
+            imageLogo.removeAttribute('src');
+            imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+        }
+        headerDone();
+    </script>
+@stop

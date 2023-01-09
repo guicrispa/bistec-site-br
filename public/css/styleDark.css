@@ -1,19 +1,13 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-        border-bottom: 1px solid #FFEF8F;
-    }
-    
-    header .logo-bistec img:nth-child(1){
-        display: none;
+        /* border-bottom: 1px solid #FFEF8F; */
+        border: none;
     }
 
-    header .logo-bistec img:nth-child(2){
-        display: inherit;
-    }
-
-    .header-bistec {
-        background-color: #141414;
+    .sticky {
+        background: #141414;
+        transition: 0.5s;
     }
 
     .button, 
@@ -32,23 +26,22 @@
     }
     
     .support_icon {
-        background: #a0c8f9;
+        background: #fff;
         color: #141414;
     }
 
     .button_icon {
         border-right: 1px solid #141414; 
-        background-color: #a0c8f9; 
+        background-color: #f3fafa; 
     }
 
-    
     .button:focus-within {
         border: 2px solid rgb(218, 218, 218);
     }
 
     .normal, 
     .normal ion-icon {
-        color: #a0c8f9;
+        color: #fff;
     }
     .normal::after{
         content: '';
@@ -413,6 +406,23 @@
 
 @media (prefers-color-scheme: dark) and (max-width: 768px) {
 
+    header .logo-bistec img:nth-child(2){
+        display: none;
+    }
+
+    header .logo-bistec img:nth-child(1){
+        display: inherit;
+    }
+
+    header .logo-bistec img:nth-child(3){
+        display: none;
+    }
+
+
+    .header-bistec {
+        background-color: #141414;
+    }
+
     .menu-cell {
         display: block;
         color: #fff;
@@ -420,9 +430,14 @@
 
     .button_store .button_text {
         color: #FFEF8F;
+        background: none;
     }
 
     .menu-cell li ion-icon {
+        color: #f3fafa;
+    }
+
+    header .normal-menu li a {
         color: #f3fafa;
     }
     
@@ -464,6 +479,7 @@
 
     .button_support .button_text {
         color: #FFEF8F;
+        background: none;
     }
 
     .texto-produtos .button_text {

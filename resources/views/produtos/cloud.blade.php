@@ -23,7 +23,7 @@
                 Guarde os seus arquivos com segurança. Nenhum sistema é 100% seguro, faça BACKUP.
             </p>
             <p>
-                Backup (cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
+                Backup (Cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
             </p>
             <p>
                 Segurança (Garante a disponibilidade, confidencialidade e integridade dos seus arquivos).
@@ -34,7 +34,7 @@
             </p>
 
             <p>
-                * Atende à lei geral de proteção de dados - LGPD
+                * Atende à lei geral de proteção de dados - LGPD.
             </p>
 
             <p>
@@ -42,6 +42,21 @@
             </p>
         </div>
     </article>
+@stop
+@section('scriptheader')
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            if(window.matchMedia("(min-width: 621px").matches){
+                header.classList.toggle("sticky", window.scrollY >= 0)
+                if(window.scrollY >= 0){
+                    let imageLogo = document.querySelector('.logoImg')
+                    imageLogo.removeAttribute('src');
+                    imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
+                }
+            }            
+        })
+    </script>
 @stop
 
 @section('script')
