@@ -182,4 +182,64 @@
         left: 0;
         width: 100%;
     } 
+
+    @media (max-width: 768px) {
+
+        header .normal-menu li a {
+            display: block;
+        }
+        
+        .button_store .button_text {
+            color: #FFEF8F;
+            background: none;
+        }
+    
+        .menu-cell li ion-icon {
+            color: #f3fafa;
+        }
+    
+        header .normal-menu li a {
+            color: #f3fafa;
+        }
+        
+        .normal-menu {
+            text-align: center;
+            background-color: #141414;
+            color: #f3fafa;
+            border-bottom: none;
+        }
+    
+        .normal:hover{
+            border: none;
+            color: #f3fafa;
+            transition: 0.2s;
+        } 
+        .button_support,
+        .support_icon {
+            background: #0c407c;
+            color: #FFEF8F;
+            border-right: none;
+        }
+
+        .button_store, .button_store .button_icon {
+            background: #0F5A20;
+            color: #FFEF8F;
+            border-right: none;
+        }
+
+
+        .button_store:hover, .button_store:hover > .store_icon {
+            background: #141414;
+            color: #FFEF8F;
+        }
+
+        .button_support:hover{
+            background: #141414;
+        }
+
+        .button_support .button_text {
+            color: #FFEF8F;
+            background: none;
+        }
+    }
 }
