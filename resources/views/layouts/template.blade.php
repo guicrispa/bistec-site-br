@@ -26,10 +26,7 @@
     <link rel="stylesheet" href="/css/styleTelaQuadrada.css">
     <link rel="stylesheet" href="/css/styleTv.css">
     <link rel="stylesheet" href="/css/styleDark.css">
-<<<<<<< HEAD
-=======
     <link rel="stylesheet" href="/css/sticky.css">
->>>>>>> gui-email
     <link rel="icon" href="https://ik.imagekit.io/bistecbr/simbolo.png">
 </head>
 <body>
