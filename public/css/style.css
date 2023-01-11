@@ -75,7 +75,7 @@ header .normal-menu {
     margin-left: 60px;
 }
 .normal-menu li{
-    /* position: relative; */
+    position: relative;
     text-align: left;
 }
 
@@ -97,7 +97,7 @@ header .normal-menu li a {
 }
 
 .normal {
-	/* display: inline-flex; */
+	display: inline-flex;
 	height: 30px;
 	margin: 0 10px;
 	color: #141414;

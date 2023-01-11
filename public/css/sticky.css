@@ -102,6 +102,23 @@
     background: #001E42;
 }
 
+@media (max-width: 768px){
+    .sticky .button_support,
+    .sticky .support_icon {
+        background: #0c407c;
+        color: #fff;
+    }
+
+    .sticky .button_store:hover, .sticky .button_store:hover > .store_icon {
+        background: #141414;
+        color: #FFEF8F;
+    }
+
+    .sticky .button_support:hover{
+        background: #141414;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     @media (min-width: 769px) {
         .sticky .button_text, 
