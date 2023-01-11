@@ -49,17 +49,16 @@
 
 .sticky .normal {
 	display: inline-flex;
-    height: 30px;
-    margin: 0 10px;
+	height: 30px;
+	margin: 0 10px;
 	color: #141414;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
 	font-weight: 700;
-    line-height: 2;
-    position: relative;
-    transition: 0.5s;
-    
+	line-height: 2;
+	position: relative;
+	transition: 0.5s;
 }
 
 .sticky .normal ion-icon {
@@ -101,6 +100,23 @@
 
 .sticky .support_icon {
     background: #001E42;
+}
+
+@media (max-width: 768px){
+    .sticky .button_support,
+    .sticky .support_icon {
+        background: #0c407c;
+        color: #fff;
+    }
+
+    .sticky .button_store:hover, .sticky .button_store:hover > .store_icon {
+        background: #141414;
+        color: #FFEF8F;
+    }
+
+    .sticky .button_support:hover{
+        background: #141414;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -182,4 +198,68 @@
         left: 0;
         width: 100%;
     } 
+
+    @media (max-width: 768px) {
+
+        .sticky .normal {
+            display: block;
+        }
+
+        .sticky header .normal-menu li a {
+            display: block;
+        }
+        
+        .sticky .button_store .button_text {
+            color: #FFEF8F;
+            background: none;
+        }
+    
+        .sticky .menu-cell li ion-icon {
+            color: #f3fafa;
+        }
+    
+        .sticky header .normal-menu li a {
+            color: #f3fafa;
+        }
+        
+        .sticky .normal-menu {
+            text-align: center;
+            background-color: #141414;
+            color: #f3fafa;
+            border-bottom: none;
+        }
+    
+        .sticky .normal:hover{
+            border: none;
+            color: #f3fafa;
+            transition: 0.2s;
+        } 
+        .sticky .button_support,
+        .sticky .support_icon {
+            background: #0c407c;
+            color: #FFEF8F;
+            border-right: none;
+        }
+
+        .sticky .button_store, .sticky .button_store .button_icon {
+            background: #0F5A20;
+            color: #FFEF8F;
+            border-right: none;
+        }
+
+
+        .sticky .button_store:hover, .sticky .button_store:hover > .store_icon {
+            background: #141414;
+            color: #FFEF8F;
+        }
+
+        .sticky .button_support:hover{
+            background: #141414;
+        }
+
+        .sticky .button_support .button_text {
+            color: #FFEF8F;
+            background: none;
+        }
+    }
 }
