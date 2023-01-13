@@ -90,8 +90,8 @@ input[type=submit]:focus-within {
 }
 
 @media (prefers-color-scheme: dark) {
-    body{ 
-        background: #1c1c1c;
+    body{
+        background: #141414;
     }
 }
 

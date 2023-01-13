@@ -60,8 +60,8 @@
                 <img src="{{$gedwhite}}" alt="Bistec GED">
             </a>
             <a href="/portfolio/green" id="bistec-green">
-                <img src="{{$green}}" alt="Bistec Green">   
-                <img src="{{$greenwhite}}" alt="Bistec GED">      
+                <img src="{{$green}}" alt="Bistec Green">
+                <img src="{{$greenwhite}}" alt="Bistec GED">
             </a>
             <a href="/portfolio/lgpd" id="bistec-lgpd">
                 <img src="{{$lgpd}}" alt="Bistec LGPD">
@@ -123,7 +123,7 @@
                     imageLogo.removeAttribute('src');
                     imageLogo.setAttribute('src',`https://ik.imagekit.io/bistecbr/logo-bistec.png`);
                 }
-            }            
+            }
         })
     </script>
 @stop 
