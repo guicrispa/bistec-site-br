@@ -107,7 +107,6 @@
     }
 
     .normal-submenu{
-        /* width: 100%; */
         display: none;
         border: none;
         width: 100%;
@@ -137,10 +136,10 @@
 
     header .normal-submenu li a {
         width: 100%;
-    padding: 10px 20px;
-    font-size: 12px;
-    box-shadow: none;
-    text-align: left;
+        padding: 10px 20px;
+        font-size: 12px;
+        box-shadow: none;
+        text-align: left;
     }
 
     /* .button {
