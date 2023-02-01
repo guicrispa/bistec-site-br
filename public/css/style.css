@@ -226,6 +226,7 @@ header ul :hover > ul{
 
 a {
     text-decoration: none;
+    text-align: center;
 }
 
 :focus-within > .normal-submenu {

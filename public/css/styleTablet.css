@@ -187,8 +187,8 @@
     .bistec-produtos {
         flex-direction: column;
         max-width: 90%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        /* display: grid; */
+        /* grid-template-columns: repeat(2, 1fr); */
     }
 
     .texto-produtos {
