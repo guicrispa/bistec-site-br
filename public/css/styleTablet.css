@@ -61,6 +61,10 @@
         color: #0c407c;
     }
 
+    .button_text:hover {
+        background: none;
+    }
+
     header .normal-submenu li a:hover {
         background: #141414;
         color: white;
@@ -173,7 +177,8 @@
         background: #0c407c;
     }
 
-    .button_support:hover {
+    .button_support:hover, .button_support:hover > .support_icon,
+    .button:hover, .button:hover > .store_icon {
       background: #141414;
     }
 
@@ -237,6 +242,10 @@
 
         .normal:hover {
             color: #f3fafa;
+        }
+
+        .support_icon {
+            background: none;
         }
 
         header .normal-menu li a{
